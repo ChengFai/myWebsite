@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shurtcut icon" href="../assets/Batman.ico" type="image/x-ico"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
+    <title>郑老板个人网页</title>
+</head>
+<body>
+    <div id="app">
+        <div class="ccp">
+            <var>居然还有变量标签</var>
+            <kbd>键盘输入标签</kbd>
+            <samp>样本标签</samp>
+            <dfn>定义(define) 标签</dfn>
+            <p>
+                <bdo dir="rtl"> 
+                a future where people live in harmony with nature.</bdo>
+                We hope they succeed.
+                </bdo>
+            </p>
+        </div>
+    
+        <div>
+            This is the content;
+        </div>
+    </div>
+    <script>
+        var list = document.getElementsByTagName("div")
+        console.log(list);
+    </script>
+    <script src=""></script>
+
+    <style>
+    .ccp{
+        background:green;/*forfirefox*/
+        *background:red;/*forIE6*/
+    }
+    </style>
+</body>
+</html>
